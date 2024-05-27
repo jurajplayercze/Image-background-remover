@@ -37,7 +37,6 @@ def load_image(filepath):
         messagebox.showerror("Chyba", str(e))
 
 def update_image():
-    print("UPDATE")
     if input_image_path.get():
         load_image(input_image_path.get())
 
